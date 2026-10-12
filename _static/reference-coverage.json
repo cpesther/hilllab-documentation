@@ -1,0 +1,4084 @@
+{
+  "source_revision": "cc6789a0a8a3420c23f972ac041412275e7aa47a",
+  "source_snapshot_date": "2026-10-12",
+  "python_files": 192,
+  "python_definitions": 225,
+  "unique_symbol_pages": 212,
+  "modules": [
+    {
+      "source": "hilllab/__init__.py",
+      "page": "api/hilllab/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/autotracker/__init__.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/autotracker/_generate_new_vrpn.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/autotracker/_generate_vrpn.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/autotracker/_validate_size.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/autotracker/autotrack_select_paths.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/autotracker/autotrack_videos.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/autotracker/autotrack_videos_parameter_test.py",
+      "page": "api/hilllab/autotracker/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/__init__.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/beads/classify_batch.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/classify_bead.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/classify_review.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/__init__.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/beads/eval/batch_evaluate.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/bead_traj.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/confusion_matrix.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/ffca.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/beads/eval/interpolate_roc.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/load_models.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/performance_dist.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/eval/prediction_map.py",
+      "page": "api/hilllab/beads/eval/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/load_hdf.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/plot_bead.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/plot_component_trace.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/plot_xy.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/plot_xy_maximize.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/beads/tf_data.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 8
+    },
+    {
+      "source": "hilllab/beads/tf_train.py",
+      "page": "api/hilllab/beads/index.md",
+      "symbols": 5
+    },
+    {
+      "source": "hilllab/binding/__init__.py",
+      "page": "api/hilllab/binding/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/binding/count_beads.py",
+      "page": "api/hilllab/binding/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/binding/masks/__init__.py",
+      "page": "api/hilllab/binding/masks/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/binding/masks/circular.py",
+      "page": "api/hilllab/binding/masks/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/binding/plot/_binding_results_handler.py",
+      "page": "api/hilllab/binding/plot/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/binding/plot/contour_hist.py",
+      "page": "api/hilllab/binding/plot/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/binding/plot/counts_bar.py",
+      "page": "api/hilllab/binding/plot/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/binding/plot/percentage_bar.py",
+      "page": "api/hilllab/binding/plot/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/cilia/FFTProcessor/publish.py",
+      "page": "api/hilllab/cilia/FFTProcessor/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/cilia/__init__.py",
+      "page": "api/hilllab/cilia/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/cilia/_calculate_CBF_FFCA_cs.py",
+      "page": "api/hilllab/cilia/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/cilia/_calculate_CBF_FFCA_py.py",
+      "page": "api/hilllab/cilia/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/cilia/_resolve_CBF_FFCA.py",
+      "page": "api/hilllab/cilia/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/cilia/batch_calculate_CBF_FFCA.py",
+      "page": "api/hilllab/cilia/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/cilia/compile_CBF_FFCA.py",
+      "page": "api/hilllab/cilia/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/drives/DBConnection.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/drives/__init__.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/drives/compile_db.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/drives/safe_execute.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/drives/scan_dir.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/drives/scan_file.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/drives/sweep_db.py",
+      "page": "api/hilllab/drives/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/__init__.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/dynamics/_identifier_from_path.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/_load_with_groups.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/batch_calculate_AFV.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/batch_primary_analysis.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/calculate_AFV.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/classify_GMM.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/classify_batch.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/compile_primary_analysis.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/create_groups.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/create_identifiers.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/dynamics_pipeline.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/inspect_h5.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/plot/__init__.py",
+      "page": "api/hilllab/dynamics/plot/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/dynamics/plot/parameters.py",
+      "page": "api/hilllab/dynamics/plot/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/dynamics/plot/plot_bead_counts.py",
+      "page": "api/hilllab/dynamics/plot/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/plot/plot_parameter.py",
+      "page": "api/hilllab/dynamics/plot/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/primary_analysis.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/dynamics/test_create_identifiers.py",
+      "page": "api/hilllab/dynamics/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/__init__.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/api.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 4
+    },
+    {
+      "source": "hilllab/indexer/config.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/database.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/indexer/indexer.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/menus/__init__.py",
+      "page": "api/hilllab/indexer/menus/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/menus/config.py",
+      "page": "api/hilllab/indexer/menus/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_main.py",
+      "page": "api/hilllab/indexer/menus/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/__init__.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/ask_option.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/clear_terminal.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/display_footer.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/display_header.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/display_options.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/menus/menu_utilities/fill_vertical_space.py",
+      "page": "api/hilllab/indexer/menus/menu_utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/models.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 3
+    },
+    {
+      "source": "hilllab/indexer/parse.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/indexer/parsers/__init__.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/indexer/parsers/excel.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/html.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/json.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/indexer/parsers/p_csv.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/pdf.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/powerpoint.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/txt.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/word.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/indexer/parsers/yaml.py",
+      "page": "api/hilllab/indexer/parsers/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/indexer/scanner.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/indexer/utilities.py",
+      "page": "api/hilllab/indexer/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/magnets/__init__.py",
+      "page": "api/hilllab/magnets/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/magnets/_calculate_force_distance.py",
+      "page": "api/hilllab/magnets/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/magnets/_calculate_origin_from_lines.py",
+      "page": "api/hilllab/magnets/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/magnets/_get_pole_tip.py",
+      "page": "api/hilllab/magnets/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/magnets/_remove_wide_angles.py",
+      "page": "api/hilllab/magnets/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/magnets/process_3DFM_calibration.py",
+      "page": "api/hilllab/magnets/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/Bundle.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 14
+    },
+    {
+      "source": "hilllab/migration/__init__.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/migration/_plate_calculate_gaussian.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/_plate_format_extended.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/_plate_load_wrapper.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/_plate_prepare_data.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/_plate_profile_curve.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/migration/_plate_remove_overflows.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/cleaning/__init__.py",
+      "page": "api/hilllab/migration/cleaning/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/migration/cleaning/noise.py",
+      "page": "api/hilllab/migration/cleaning/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/cleaning/peak.py",
+      "page": "api/hilllab/migration/cleaning/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/gui/__init__.py",
+      "page": "api/hilllab/migration/gui/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/migration/gui/_parameter_window.py",
+      "page": "api/hilllab/migration/gui/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/migration/gui/_parameter_window_text.py",
+      "page": "api/hilllab/migration/gui/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/load_file.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_calibrate_results.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_define_radii.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_endpoint_calculation.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_export_bundle.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_extract_result.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_generate_report.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 4
+    },
+    {
+      "source": "hilllab/migration/plate_inspect.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_kinetic_calculation.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_optimize_gaussian.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_relative_kinetic_calculation.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/plate_split_channels.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/migration/stokes_einstein.py",
+      "page": "api/hilllab/migration/index.md",
+      "symbols": 4
+    },
+    {
+      "source": "hilllab/ptmr/__init__.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/ptmr/_format_vrpn.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/batch_subtract_drift.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/calculate_bead_msd.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/calculate_ensemble_moduli.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/conversion/__init__.py",
+      "page": "api/hilllab/ptmr/conversion/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/ptmr/conversion/batch_vrpn_to_csv.py",
+      "page": "api/hilllab/ptmr/conversion/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/conversion/vrpn_to_csv.py",
+      "page": "api/hilllab/ptmr/conversion/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/drift/__init__.py",
+      "page": "api/hilllab/ptmr/drift/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/ptmr/drift/_subtract_linear_drift.py",
+      "page": "api/hilllab/ptmr/drift/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/fit_fbm.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/load_tracking_data.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/ptmr/process_vrpns.py",
+      "page": "api/hilllab/ptmr/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/swelling/__init__.py",
+      "page": "api/hilllab/swelling/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/swelling/_access_read.py",
+      "page": "api/hilllab/swelling/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/swelling/_load_file.py",
+      "page": "api/hilllab/swelling/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/swelling/calculate_NIF.py",
+      "page": "api/hilllab/swelling/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/swelling/process_2C_swelling.py",
+      "page": "api/hilllab/swelling/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/tests/test_utilities.py",
+      "page": "api/hilllab/tests/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/__init__.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/utilities/batch_rename_files.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/cache_clear.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/cache_view.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/current_timestamp.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/custom_axes.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/format_duration.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/format_spectra_table.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/format_timestamp.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/generate_neighbor_path.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/generate_safe_name.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/gui/Popup.py",
+      "page": "api/hilllab/utilities/gui/index.md",
+      "symbols": 3
+    },
+    {
+      "source": "hilllab/utilities/gui/Tooltip.py",
+      "page": "api/hilllab/utilities/gui/index.md",
+      "symbols": 5
+    },
+    {
+      "source": "hilllab/utilities/gui/__init__.py",
+      "page": "api/hilllab/utilities/gui/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/utilities/images_to_video.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/launch_in_terminal.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/utilities/load_matlab.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/load_vrpn.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/print_dict_table.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/print_progress_bar.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/record_memory_snapshot.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/record_message.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/remove_outliers.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/utilities/verify_name.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/walk_dir.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/utilities/warning.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 3
+    },
+    {
+      "source": "hilllab/utilities/yeild_dir.py",
+      "page": "api/hilllab/utilities/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/__init__.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 0
+    },
+    {
+      "source": "hilllab/visual/_get_camera_info.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/batch_bin_video.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/batch_convert_to_avi.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/batch_edit_video.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/batch_extract_frame.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/batch_normalize_video_brightness.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/bin_video.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/calculate_mean_brightness.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/convert_to_avi.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/edit_video.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 2
+    },
+    {
+      "source": "hilllab/visual/extract_frame.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/normalize_video_brightness.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/visual/show_camera_info.py",
+      "page": "api/hilllab/visual/index.md",
+      "symbols": 1
+    },
+    {
+      "source": "hilllab/widgets/button_open_path.py",
+      "page": "api/hilllab/widgets/index.md",
+      "symbols": 2
+    }
+  ],
+  "symbols": [
+    {
+      "name": "hilllab.autotracker._generate_new_vrpn._generate_new_vrpn",
+      "source": "hilllab/autotracker/_generate_new_vrpn.py",
+      "lines": [
+        [
+          9,
+          116
+        ]
+      ],
+      "page": "api/hilllab/autotracker/_generate_new_vrpn.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.autotracker._generate_vrpn._generate_vrpn",
+      "source": "hilllab/autotracker/_generate_vrpn.py",
+      "lines": [
+        [
+          11,
+          117
+        ]
+      ],
+      "page": "api/hilllab/autotracker/_generate_vrpn.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.autotracker._validate_size._validate_size",
+      "source": "hilllab/autotracker/_validate_size.py",
+      "lines": [
+        [
+          4,
+          19
+        ]
+      ],
+      "page": "api/hilllab/autotracker/_validate_size.md",
+      "kind": "function; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.autotracker.autotrack_select_paths.autotrack_select_paths",
+      "source": "hilllab/autotracker/autotrack_select_paths.py",
+      "lines": [
+        [
+          14,
+          60
+        ]
+      ],
+      "page": "api/hilllab/autotracker/autotrack_select_paths.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.autotracker.autotrack_videos.autotrack_videos",
+      "source": "hilllab/autotracker/autotrack_videos.py",
+      "lines": [
+        [
+          28,
+          333
+        ]
+      ],
+      "page": "api/hilllab/autotracker/autotrack_videos.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.autotracker.autotrack_videos.autotrack_videos.gray",
+      "source": "hilllab/autotracker/autotrack_videos.py",
+      "lines": [
+        [
+          149,
+          150
+        ]
+      ],
+      "page": "api/hilllab/autotracker/autotrack_videos.gray.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.autotracker.autotrack_videos_parameter_test.autotrack_videos_parameter_test",
+      "source": "hilllab/autotracker/autotrack_videos_parameter_test.py",
+      "lines": [
+        [
+          16,
+          148
+        ]
+      ],
+      "page": "api/hilllab/autotracker/autotrack_videos_parameter_test.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.classify_batch.classify_batch",
+      "source": "hilllab/beads/classify_batch.py",
+      "lines": [
+        [
+          10,
+          77
+        ]
+      ],
+      "page": "api/hilllab/beads/classify_batch.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.classify_bead.classify_bead",
+      "source": "hilllab/beads/classify_bead.py",
+      "lines": [
+        [
+          10,
+          100
+        ]
+      ],
+      "page": "api/hilllab/beads/classify_bead.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.classify_review.classify_review",
+      "source": "hilllab/beads/classify_review.py",
+      "lines": [
+        [
+          10,
+          80
+        ]
+      ],
+      "page": "api/hilllab/beads/classify_review.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.eval.batch_evaluate.batch_evaluate",
+      "source": "hilllab/beads/eval/batch_evaluate.py",
+      "lines": [
+        [
+          7,
+          51
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/batch_evaluate.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.eval.bead_traj.bead_traj",
+      "source": "hilllab/beads/eval/bead_traj.py",
+      "lines": [
+        [
+          8,
+          66
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/bead_traj.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.eval.confusion_matrix.conf_matrix",
+      "source": "hilllab/beads/eval/confusion_matrix.py",
+      "lines": [
+        [
+          8,
+          58
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/conf_matrix.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.eval.ffca.pred_ffca",
+      "source": "hilllab/beads/eval/ffca.py",
+      "lines": [
+        [
+          18,
+          95
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/pred_ffca.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.eval.ffca.plot_ffca",
+      "source": "hilllab/beads/eval/ffca.py",
+      "lines": [
+        [
+          98,
+          147
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/plot_ffca.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.eval.interpolate_roc.interpolate_roc",
+      "source": "hilllab/beads/eval/interpolate_roc.py",
+      "lines": [
+        [
+          9,
+          77
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/interpolate_roc.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.eval.load_models.load_models",
+      "source": "hilllab/beads/eval/load_models.py",
+      "lines": [
+        [
+          6,
+          33
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/load_models.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.eval.performance_dist.performance_dist",
+      "source": "hilllab/beads/eval/performance_dist.py",
+      "lines": [
+        [
+          6,
+          39
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/performance_dist.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.eval.prediction_map.prediction_map",
+      "source": "hilllab/beads/eval/prediction_map.py",
+      "lines": [
+        [
+          10,
+          84
+        ]
+      ],
+      "page": "api/hilllab/beads/eval/prediction_map.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.load_hdf.load_hdf",
+      "source": "hilllab/beads/load_hdf.py",
+      "lines": [
+        [
+          5,
+          26
+        ]
+      ],
+      "page": "api/hilllab/beads/load_hdf.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.plot_bead.plot_bead",
+      "source": "hilllab/beads/plot_bead.py",
+      "lines": [
+        [
+          9,
+          95
+        ]
+      ],
+      "page": "api/hilllab/beads/plot_bead.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.plot_component_trace.plot_component_trace",
+      "source": "hilllab/beads/plot_component_trace.py",
+      "lines": [
+        [
+          9,
+          62
+        ]
+      ],
+      "page": "api/hilllab/beads/plot_component_trace.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.plot_xy.plot_xy",
+      "source": "hilllab/beads/plot_xy.py",
+      "lines": [
+        [
+          9,
+          78
+        ]
+      ],
+      "page": "api/hilllab/beads/plot_xy.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.plot_xy_maximize.plot_xy_maximize",
+      "source": "hilllab/beads/plot_xy_maximize.py",
+      "lines": [
+        [
+          9,
+          87
+        ]
+      ],
+      "page": "api/hilllab/beads/plot_xy_maximize.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.tf_data.param_data",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          26,
+          94
+        ]
+      ],
+      "page": "api/hilllab/beads/param_data.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.tf_data.param_data.generator",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          58,
+          69
+        ],
+        [
+          79,
+          87
+        ]
+      ],
+      "page": "api/hilllab/beads/param_data.generator.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_data.position_data",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          97,
+          178
+        ]
+      ],
+      "page": "api/hilllab/beads/position_data.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.tf_data.position_data.generator",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          127,
+          145
+        ],
+        [
+          155,
+          170
+        ]
+      ],
+      "page": "api/hilllab/beads/position_data.generator.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_data.summary_data",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          181,
+          248
+        ]
+      ],
+      "page": "api/hilllab/beads/summary_data.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.tf_data.summary_data.generator",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          212,
+          223
+        ],
+        [
+          233,
+          241
+        ]
+      ],
+      "page": "api/hilllab/beads/summary_data.generator.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_data.data_preprocess",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          251,
+          308
+        ]
+      ],
+      "page": "api/hilllab/beads/data_preprocess.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.beads.tf_data.data_preprocess.encode",
+      "source": "hilllab/beads/tf_data.py",
+      "lines": [
+        [
+          284,
+          285
+        ]
+      ],
+      "page": "api/hilllab/beads/data_preprocess.encode.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_train.param_model",
+      "source": "hilllab/beads/tf_train.py",
+      "lines": [
+        [
+          30,
+          41
+        ]
+      ],
+      "page": "api/hilllab/beads/param_model.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_train.position_model",
+      "source": "hilllab/beads/tf_train.py",
+      "lines": [
+        [
+          43,
+          56
+        ]
+      ],
+      "page": "api/hilllab/beads/position_model.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_train.summary_model",
+      "source": "hilllab/beads/tf_train.py",
+      "lines": [
+        [
+          58,
+          71
+        ]
+      ],
+      "page": "api/hilllab/beads/summary_model.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.beads.tf_train.train",
+      "source": "hilllab/beads/tf_train.py",
+      "lines": [
+        [
+          76,
+          110
+        ]
+      ],
+      "page": "api/hilllab/beads/train.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.beads.tf_train.evaluate",
+      "source": "hilllab/beads/tf_train.py",
+      "lines": [
+        [
+          115,
+          178
+        ]
+      ],
+      "page": "api/hilllab/beads/evaluate.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.binding.count_beads.count_beads",
+      "source": "hilllab/binding/count_beads.py",
+      "lines": [
+        [
+          16,
+          208
+        ]
+      ],
+      "page": "api/hilllab/binding/count_beads.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.binding.masks.circular.circular",
+      "source": "hilllab/binding/masks/circular.py",
+      "lines": [
+        [
+          6,
+          43
+        ]
+      ],
+      "page": "api/hilllab/binding/masks/circular.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.binding.plot._binding_results_handler._binding_results_handler",
+      "source": "hilllab/binding/plot/_binding_results_handler.py",
+      "lines": [
+        [
+          5,
+          85
+        ]
+      ],
+      "page": "api/hilllab/binding/plot/_binding_results_handler.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.binding.plot.contour_hist.contour_hist",
+      "source": "hilllab/binding/plot/contour_hist.py",
+      "lines": [
+        [
+          7,
+          58
+        ]
+      ],
+      "page": "api/hilllab/binding/plot/contour_hist.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.binding.plot.counts_bar.counts_bar",
+      "source": "hilllab/binding/plot/counts_bar.py",
+      "lines": [
+        [
+          8,
+          45
+        ]
+      ],
+      "page": "api/hilllab/binding/plot/counts_bar.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.binding.plot.percentage_bar.percentage_bar",
+      "source": "hilllab/binding/plot/percentage_bar.py",
+      "lines": [
+        [
+          8,
+          90
+        ]
+      ],
+      "page": "api/hilllab/binding/plot/percentage_bar.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.cilia.FFTProcessor.publish.publish",
+      "source": "hilllab/cilia/FFTProcessor/publish.py",
+      "lines": [
+        [
+          6,
+          36
+        ]
+      ],
+      "page": "api/hilllab/cilia/FFTProcessor/publish.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.cilia._calculate_CBF_FFCA_cs._calculate_CBF_FFCA_cs",
+      "source": "hilllab/cilia/_calculate_CBF_FFCA_cs.py",
+      "lines": [
+        [
+          10,
+          122
+        ]
+      ],
+      "page": "api/hilllab/cilia/_calculate_CBF_FFCA_cs.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.cilia._calculate_CBF_FFCA_py._calculate_CBF_FFCA_py",
+      "source": "hilllab/cilia/_calculate_CBF_FFCA_py.py",
+      "lines": [
+        [
+          12,
+          128
+        ]
+      ],
+      "page": "api/hilllab/cilia/_calculate_CBF_FFCA_py.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.cilia._resolve_CBF_FFCA._resolve_CBF_FFCA",
+      "source": "hilllab/cilia/_resolve_CBF_FFCA.py",
+      "lines": [
+        [
+          9,
+          68
+        ]
+      ],
+      "page": "api/hilllab/cilia/_resolve_CBF_FFCA.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.cilia.batch_calculate_CBF_FFCA.batch_calculate_CBF_FFCA",
+      "source": "hilllab/cilia/batch_calculate_CBF_FFCA.py",
+      "lines": [
+        [
+          14,
+          100
+        ]
+      ],
+      "page": "api/hilllab/cilia/batch_calculate_CBF_FFCA.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.cilia.compile_CBF_FFCA.compile_CBF_FFCA",
+      "source": "hilllab/cilia/compile_CBF_FFCA.py",
+      "lines": [
+        [
+          10,
+          75
+        ]
+      ],
+      "page": "api/hilllab/cilia/compile_CBF_FFCA.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.cilia.compile_CBF_FFCA.compile_CBF_FFCA._compile_files",
+      "source": "hilllab/cilia/compile_CBF_FFCA.py",
+      "lines": [
+        [
+          21,
+          51
+        ]
+      ],
+      "page": "api/hilllab/cilia/compile_CBF_FFCA._compile_files.md",
+      "kind": "nested callback/helper; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.drives.DBConnection.DBConnection.__init__",
+      "source": "hilllab/drives/DBConnection.py",
+      "lines": [
+        [
+          12,
+          31
+        ]
+      ],
+      "page": "api/hilllab/drives/DBConnection.__init__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.drives.compile_db.compile_db",
+      "source": "hilllab/drives/compile_db.py",
+      "lines": [
+        [
+          3,
+          56
+        ]
+      ],
+      "page": "api/hilllab/drives/compile_db.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.drives.compile_db.compile_db.iterate_directories",
+      "source": "hilllab/drives/compile_db.py",
+      "lines": [
+        [
+          11,
+          21
+        ]
+      ],
+      "page": "api/hilllab/drives/compile_db.iterate_directories.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.drives.safe_execute.safe_execute",
+      "source": "hilllab/drives/safe_execute.py",
+      "lines": [
+        [
+          3,
+          32
+        ]
+      ],
+      "page": "api/hilllab/drives/safe_execute.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.drives.scan_dir.scan_dir",
+      "source": "hilllab/drives/scan_dir.py",
+      "lines": [
+        [
+          8,
+          62
+        ]
+      ],
+      "page": "api/hilllab/drives/scan_dir.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.drives.scan_file.scan_file",
+      "source": "hilllab/drives/scan_file.py",
+      "lines": [
+        [
+          8,
+          119
+        ]
+      ],
+      "page": "api/hilllab/drives/scan_file.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.drives.sweep_db.sweep_db",
+      "source": "hilllab/drives/sweep_db.py",
+      "lines": [
+        [
+          3,
+          28
+        ]
+      ],
+      "page": "api/hilllab/drives/sweep_db.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics._identifier_from_path._identifier_from_path",
+      "source": "hilllab/dynamics/_identifier_from_path.py",
+      "lines": [
+        [
+          5,
+          38
+        ]
+      ],
+      "page": "api/hilllab/dynamics/_identifier_from_path.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.dynamics._load_with_groups._load_with_groups",
+      "source": "hilllab/dynamics/_load_with_groups.py",
+      "lines": [
+        [
+          11,
+          94
+        ]
+      ],
+      "page": "api/hilllab/dynamics/_load_with_groups.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.dynamics.batch_calculate_AFV.batch_calculate_AFV",
+      "source": "hilllab/dynamics/batch_calculate_AFV.py",
+      "lines": [
+        [
+          11,
+          62
+        ]
+      ],
+      "page": "api/hilllab/dynamics/batch_calculate_AFV.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.dynamics.batch_primary_analysis.batch_primary_analysis",
+      "source": "hilllab/dynamics/batch_primary_analysis.py",
+      "lines": [
+        [
+          12,
+          150
+        ]
+      ],
+      "page": "api/hilllab/dynamics/batch_primary_analysis.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.calculate_AFV.calculate_AFV",
+      "source": "hilllab/dynamics/calculate_AFV.py",
+      "lines": [
+        [
+          6,
+          120
+        ]
+      ],
+      "page": "api/hilllab/dynamics/calculate_AFV.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.classify_GMM.classify_GMM",
+      "source": "hilllab/dynamics/classify_GMM.py",
+      "lines": [
+        [
+          7,
+          67
+        ]
+      ],
+      "page": "api/hilllab/dynamics/classify_GMM.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.classify_batch.classify_batch",
+      "source": "hilllab/dynamics/classify_batch.py",
+      "lines": [
+        [
+          10,
+          53
+        ]
+      ],
+      "page": "api/hilllab/dynamics/classify_batch.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.compile_primary_analysis.compile_primary_analysis",
+      "source": "hilllab/dynamics/compile_primary_analysis.py",
+      "lines": [
+        [
+          13,
+          93
+        ]
+      ],
+      "page": "api/hilllab/dynamics/compile_primary_analysis.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.create_groups.create_groups",
+      "source": "hilllab/dynamics/create_groups.py",
+      "lines": [
+        [
+          9,
+          51
+        ]
+      ],
+      "page": "api/hilllab/dynamics/create_groups.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.dynamics.create_identifiers.create_identifiers",
+      "source": "hilllab/dynamics/create_identifiers.py",
+      "lines": [
+        [
+          11,
+          67
+        ]
+      ],
+      "page": "api/hilllab/dynamics/create_identifiers.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.dynamics_pipeline.dynamics_pipeline",
+      "source": "hilllab/dynamics/dynamics_pipeline.py",
+      "lines": [
+        [
+          3,
+          23
+        ]
+      ],
+      "page": "api/hilllab/dynamics/dynamics_pipeline.md",
+      "kind": "function",
+      "status": "incomplete"
+    },
+    {
+      "name": "hilllab.dynamics.inspect_h5.inspect_h5",
+      "source": "hilllab/dynamics/inspect_h5.py",
+      "lines": [
+        [
+          10,
+          47
+        ]
+      ],
+      "page": "api/hilllab/dynamics/inspect_h5.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.dynamics.plot.plot_bead_counts.bead_counts",
+      "source": "hilllab/dynamics/plot/plot_bead_counts.py",
+      "lines": [
+        [
+          11,
+          108
+        ]
+      ],
+      "page": "api/hilllab/dynamics/plot/bead_counts.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.plot.plot_parameter.plot_parameter",
+      "source": "hilllab/dynamics/plot/plot_parameter.py",
+      "lines": [
+        [
+          11,
+          72
+        ]
+      ],
+      "page": "api/hilllab/dynamics/plot/plot_parameter.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.primary_analysis.primary_analysis",
+      "source": "hilllab/dynamics/primary_analysis.py",
+      "lines": [
+        [
+          13,
+          486
+        ]
+      ],
+      "page": "api/hilllab/dynamics/primary_analysis.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.dynamics.test_create_identifiers.test_create_identifiers",
+      "source": "hilllab/dynamics/test_create_identifiers.py",
+      "lines": [
+        [
+          8,
+          63
+        ]
+      ],
+      "page": "api/hilllab/dynamics/test_create_identifiers.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.indexer.api.initalize_database",
+      "source": "hilllab/indexer/api.py",
+      "lines": [
+        [
+          13,
+          16
+        ]
+      ],
+      "page": "api/hilllab/indexer/initalize_database.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.indexer.api.add_file",
+      "source": "hilllab/indexer/api.py",
+      "lines": [
+        [
+          20,
+          56
+        ]
+      ],
+      "page": "api/hilllab/indexer/add_file.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.indexer.api.build",
+      "source": "hilllab/indexer/api.py",
+      "lines": [
+        [
+          59,
+          77
+        ]
+      ],
+      "page": "api/hilllab/indexer/build.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.indexer.api.add_keyword",
+      "source": "hilllab/indexer/api.py",
+      "lines": [
+        [
+          80,
+          108
+        ]
+      ],
+      "page": "api/hilllab/indexer/add_keyword.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.database.get_session",
+      "source": "hilllab/indexer/database.py",
+      "lines": [
+        [
+          18,
+          27
+        ]
+      ],
+      "page": "api/hilllab/indexer/get_session.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_main.menu_main",
+      "source": "hilllab/indexer/menus/menu_main.py",
+      "lines": [
+        [
+          5,
+          41
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_main.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_utilities.ask_option.ask_option",
+      "source": "hilllab/indexer/menus/menu_utilities/ask_option.py",
+      "lines": [
+        [
+          5,
+          22
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_utilities/ask_option.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_utilities.clear_terminal.clear_terminal",
+      "source": "hilllab/indexer/menus/menu_utilities/clear_terminal.py",
+      "lines": [
+        [
+          5,
+          7
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_utilities/clear_terminal.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_utilities.display_footer.display_footer",
+      "source": "hilllab/indexer/menus/menu_utilities/display_footer.py",
+      "lines": [
+        [
+          3,
+          10
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_utilities/display_footer.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_utilities.display_header.display_header",
+      "source": "hilllab/indexer/menus/menu_utilities/display_header.py",
+      "lines": [
+        [
+          4,
+          19
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_utilities/display_header.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_utilities.display_options.display_options",
+      "source": "hilllab/indexer/menus/menu_utilities/display_options.py",
+      "lines": [
+        [
+          3,
+          14
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_utilities/display_options.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.menus.menu_utilities.fill_vertical_space.fill_vertical_space",
+      "source": "hilllab/indexer/menus/menu_utilities/fill_vertical_space.py",
+      "lines": [
+        [
+          4,
+          21
+        ]
+      ],
+      "page": "api/hilllab/indexer/menus/menu_utilities/fill_vertical_space.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parse.parser_dispatch",
+      "source": "hilllab/indexer/parse.py",
+      "lines": [
+        [
+          6,
+          42
+        ]
+      ],
+      "page": "api/hilllab/indexer/parser_dispatch.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parse.clean_parse",
+      "source": "hilllab/indexer/parse.py",
+      "lines": [
+        [
+          44,
+          80
+        ]
+      ],
+      "page": "api/hilllab/indexer/clean_parse.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.excel.parse_excel",
+      "source": "hilllab/indexer/parsers/excel.py",
+      "lines": [
+        [
+          4,
+          25
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_excel.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.html.parse_html",
+      "source": "hilllab/indexer/parsers/html.py",
+      "lines": [
+        [
+          4,
+          20
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_html.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.json.parse_json",
+      "source": "hilllab/indexer/parsers/json.py",
+      "lines": [
+        [
+          4,
+          30
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_json.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.json.parse_json.extract_strings",
+      "source": "hilllab/indexer/parsers/json.py",
+      "lines": [
+        [
+          14,
+          23
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_json.extract_strings.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.p_csv.parse_csv",
+      "source": "hilllab/indexer/parsers/p_csv.py",
+      "lines": [
+        [
+          4,
+          19
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_csv.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.pdf.parse_pdf",
+      "source": "hilllab/indexer/parsers/pdf.py",
+      "lines": [
+        [
+          4,
+          21
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_pdf.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.powerpoint.parse_powerpoint",
+      "source": "hilllab/indexer/parsers/powerpoint.py",
+      "lines": [
+        [
+          4,
+          20
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_powerpoint.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.txt.parse_txt",
+      "source": "hilllab/indexer/parsers/txt.py",
+      "lines": [
+        [
+          2,
+          16
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_txt.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.word.parse_word",
+      "source": "hilllab/indexer/parsers/word.py",
+      "lines": [
+        [
+          4,
+          23
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_word.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.yaml.parse_yaml",
+      "source": "hilllab/indexer/parsers/yaml.py",
+      "lines": [
+        [
+          4,
+          29
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_yaml.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.parsers.yaml.parse_yaml.extract_strings",
+      "source": "hilllab/indexer/parsers/yaml.py",
+      "lines": [
+        [
+          13,
+          22
+        ]
+      ],
+      "page": "api/hilllab/indexer/parsers/parse_yaml.extract_strings.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.scanner.scan",
+      "source": "hilllab/indexer/scanner.py",
+      "lines": [
+        [
+          10,
+          70
+        ]
+      ],
+      "page": "api/hilllab/indexer/scan.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.indexer.scanner.traverse",
+      "source": "hilllab/indexer/scanner.py",
+      "lines": [
+        [
+          73,
+          88
+        ]
+      ],
+      "page": "api/hilllab/indexer/traverse.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.utilities.windows_long_path",
+      "source": "hilllab/indexer/utilities.py",
+      "lines": [
+        [
+          4,
+          10
+        ]
+      ],
+      "page": "api/hilllab/indexer/windows_long_path.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.magnets._calculate_force_distance._calculate_force_distance",
+      "source": "hilllab/magnets/_calculate_force_distance.py",
+      "lines": [
+        [
+          4,
+          92
+        ]
+      ],
+      "page": "api/hilllab/magnets/_calculate_force_distance.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.magnets._calculate_origin_from_lines._calculate_origin_from_lines",
+      "source": "hilllab/magnets/_calculate_origin_from_lines.py",
+      "lines": [
+        [
+          4,
+          57
+        ]
+      ],
+      "page": "api/hilllab/magnets/_calculate_origin_from_lines.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.magnets._get_pole_tip._get_pole_tip",
+      "source": "hilllab/magnets/_get_pole_tip.py",
+      "lines": [
+        [
+          4,
+          38
+        ]
+      ],
+      "page": "api/hilllab/magnets/_get_pole_tip.md",
+      "kind": "function; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.magnets._get_pole_tip._get_pole_tip.click_event",
+      "source": "hilllab/magnets/_get_pole_tip.py",
+      "lines": [
+        [
+          11,
+          18
+        ]
+      ],
+      "page": "api/hilllab/magnets/_get_pole_tip.click_event.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.magnets._remove_wide_angles._remove_wide_angles",
+      "source": "hilllab/magnets/_remove_wide_angles.py",
+      "lines": [
+        [
+          4,
+          42
+        ]
+      ],
+      "page": "api/hilllab/magnets/_remove_wide_angles.md",
+      "kind": "function; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.magnets.process_3DFM_calibration.process_3DFM_calibration",
+      "source": "hilllab/magnets/process_3DFM_calibration.py",
+      "lines": [
+        [
+          44,
+          325
+        ]
+      ],
+      "page": "api/hilllab/magnets/process_3DFM_calibration.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Bundle.__init__",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          16,
+          18
+        ]
+      ],
+      "page": "api/hilllab/migration/Bundle.__init__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Bundle._load_read",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          21,
+          54
+        ]
+      ],
+      "page": "api/hilllab/migration/Bundle._load_read.md",
+      "kind": "method; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Bundle.show",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          57,
+          72
+        ]
+      ],
+      "page": "api/hilllab/migration/Bundle.show.md",
+      "kind": "method",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Bundle.contents",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          75,
+          97
+        ]
+      ],
+      "page": "api/hilllab/migration/Bundle.contents.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Bundle.__repr__",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          100,
+          115
+        ]
+      ],
+      "page": "api/hilllab/migration/Bundle.__repr__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Data.__init__",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          126,
+          160
+        ]
+      ],
+      "page": "api/hilllab/migration/Data.__init__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Data.show_conditions",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          163,
+          176
+        ]
+      ],
+      "page": "api/hilllab/migration/Data.show_conditions.md",
+      "kind": "method",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Data.show_radii",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          179,
+          181
+        ]
+      ],
+      "page": "api/hilllab/migration/Data.show_radii.md",
+      "kind": "method",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Data.show_groups",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          184,
+          186
+        ]
+      ],
+      "page": "api/hilllab/migration/Data.show_groups.md",
+      "kind": "method",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Data.show_calibration",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          189,
+          191
+        ]
+      ],
+      "page": "api/hilllab/migration/Data.show_calibration.md",
+      "kind": "method",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Results.__init__",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          201,
+          213
+        ]
+      ],
+      "page": "api/hilllab/migration/Results.__init__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration._plate_calculate_gaussian._plate_calculate_gaussian",
+      "source": "hilllab/migration/_plate_calculate_gaussian.py",
+      "lines": [
+        [
+          5,
+          50
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_calculate_gaussian.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration._plate_format_extended._plate_format_extended",
+      "source": "hilllab/migration/_plate_format_extended.py",
+      "lines": [
+        [
+          5,
+          69
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_format_extended.md",
+      "kind": "function; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration._plate_load_wrapper._plate_load_wrapper",
+      "source": "hilllab/migration/_plate_load_wrapper.py",
+      "lines": [
+        [
+          7,
+          57
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_load_wrapper.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration._plate_prepare_data._plate_prepare_data",
+      "source": "hilllab/migration/_plate_prepare_data.py",
+      "lines": [
+        [
+          11,
+          315
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_prepare_data.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration._plate_profile_curve._plate_profile_curve",
+      "source": "hilllab/migration/_plate_profile_curve.py",
+      "lines": [
+        [
+          7,
+          216
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_profile_curve.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration._plate_profile_curve._plate_profile_curve.gaussian",
+      "source": "hilllab/migration/_plate_profile_curve.py",
+      "lines": [
+        [
+          28,
+          29
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_profile_curve.gaussian.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration._plate_remove_overflows._plate_remove_overflows",
+      "source": "hilllab/migration/_plate_remove_overflows.py",
+      "lines": [
+        [
+          5,
+          72
+        ]
+      ],
+      "page": "api/hilllab/migration/_plate_remove_overflows.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.cleaning.noise.simple_shift",
+      "source": "hilllab/migration/cleaning/noise.py",
+      "lines": [
+        [
+          3,
+          22
+        ]
+      ],
+      "page": "api/hilllab/migration/cleaning/simple_shift.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.cleaning.peak.move_peak",
+      "source": "hilllab/migration/cleaning/peak.py",
+      "lines": [
+        [
+          4,
+          53
+        ]
+      ],
+      "page": "api/hilllab/migration/cleaning/move_peak.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.gui._parameter_window._parameter_window",
+      "source": "hilllab/migration/gui/_parameter_window.py",
+      "lines": [
+        [
+          10,
+          334
+        ]
+      ],
+      "page": "api/hilllab/migration/gui/_parameter_window.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.gui._parameter_window._parameter_window._confirm",
+      "source": "hilllab/migration/gui/_parameter_window.py",
+      "lines": [
+        [
+          219,
+          325
+        ]
+      ],
+      "page": "api/hilllab/migration/gui/_parameter_window._confirm.md",
+      "kind": "nested callback/helper; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.gui._parameter_window_text._parameter_window_text",
+      "source": "hilllab/migration/gui/_parameter_window_text.py",
+      "lines": [
+        [
+          3,
+          38
+        ]
+      ],
+      "page": "api/hilllab/migration/gui/_parameter_window_text.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.load_file.load_file",
+      "source": "hilllab/migration/load_file.py",
+      "lines": [
+        [
+          13,
+          172
+        ]
+      ],
+      "page": "api/hilllab/migration/load_file.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_calibrate_results.plate_calibrate_results",
+      "source": "hilllab/migration/plate_calibrate_results.py",
+      "lines": [
+        [
+          11,
+          129
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_calibrate_results.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.plate_define_radii.plate_define_radii",
+      "source": "hilllab/migration/plate_define_radii.py",
+      "lines": [
+        [
+          7,
+          124
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_define_radii.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_endpoint_calculation.plate_endpoint_calculation",
+      "source": "hilllab/migration/plate_endpoint_calculation.py",
+      "lines": [
+        [
+          7,
+          91
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_endpoint_calculation.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_export_bundle.plate_export_bundle",
+      "source": "hilllab/migration/plate_export_bundle.py",
+      "lines": [
+        [
+          10,
+          93
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_export_bundle.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_extract_result.plate_extract_result",
+      "source": "hilllab/migration/plate_extract_result.py",
+      "lines": [
+        [
+          4,
+          60
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_extract_result.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_generate_report.plate_generate_report",
+      "source": "hilllab/migration/plate_generate_report.py",
+      "lines": [
+        [
+          12,
+          334
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_generate_report.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_generate_report.plate_generate_report.colnum_to_letter",
+      "source": "hilllab/migration/plate_generate_report.py",
+      "lines": [
+        [
+          184,
+          190
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_generate_report.colnum_to_letter.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.plate_generate_report.plate_generate_report.excel_row_cells",
+      "source": "hilllab/migration/plate_generate_report.py",
+      "lines": [
+        [
+          252,
+          254
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_generate_report.excel_row_cells.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.plate_generate_report.plate_generate_report.write_metric_formulas",
+      "source": "hilllab/migration/plate_generate_report.py",
+      "lines": [
+        [
+          256,
+          284
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_generate_report.write_metric_formulas.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.plate_inspect.plate_inspect",
+      "source": "hilllab/migration/plate_inspect.py",
+      "lines": [
+        [
+          8,
+          125
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_inspect.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_kinetic_calculation.plate_kinetic_calculation",
+      "source": "hilllab/migration/plate_kinetic_calculation.py",
+      "lines": [
+        [
+          10,
+          63
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_kinetic_calculation.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.migration.plate_optimize_gaussian.plate_optimize_gaussian",
+      "source": "hilllab/migration/plate_optimize_gaussian.py",
+      "lines": [
+        [
+          10,
+          128
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_optimize_gaussian.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_relative_kinetic_calculation.plate_relative_kinetic_calculation",
+      "source": "hilllab/migration/plate_relative_kinetic_calculation.py",
+      "lines": [
+        [
+          10,
+          98
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_relative_kinetic_calculation.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.plate_split_channels.plate_split_channels",
+      "source": "hilllab/migration/plate_split_channels.py",
+      "lines": [
+        [
+          10,
+          109
+        ]
+      ],
+      "page": "api/hilllab/migration/plate_split_channels.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.stokes_einstein.D",
+      "source": "hilllab/migration/stokes_einstein.py",
+      "lines": [
+        [
+          4,
+          28
+        ]
+      ],
+      "page": "api/hilllab/migration/D.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.stokes_einstein.eta",
+      "source": "hilllab/migration/stokes_einstein.py",
+      "lines": [
+        [
+          31,
+          55
+        ]
+      ],
+      "page": "api/hilllab/migration/eta.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.stokes_einstein.r",
+      "source": "hilllab/migration/stokes_einstein.py",
+      "lines": [
+        [
+          58,
+          82
+        ]
+      ],
+      "page": "api/hilllab/migration/r.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.stokes_einstein.T",
+      "source": "hilllab/migration/stokes_einstein.py",
+      "lines": [
+        [
+          85,
+          103
+        ]
+      ],
+      "page": "api/hilllab/migration/T.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.ptmr._format_vrpn._format_vrpn",
+      "source": "hilllab/ptmr/_format_vrpn.py",
+      "lines": [
+        [
+          4,
+          70
+        ]
+      ],
+      "page": "api/hilllab/ptmr/_format_vrpn.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.ptmr.batch_subtract_drift.batch_subtract_drift",
+      "source": "hilllab/ptmr/batch_subtract_drift.py",
+      "lines": [
+        [
+          9,
+          65
+        ]
+      ],
+      "page": "api/hilllab/ptmr/batch_subtract_drift.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.ptmr.calculate_bead_msd.calculate_bead_msd",
+      "source": "hilllab/ptmr/calculate_bead_msd.py",
+      "lines": [
+        [
+          10,
+          141
+        ]
+      ],
+      "page": "api/hilllab/ptmr/calculate_bead_msd.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.ptmr.calculate_ensemble_moduli.calculate_ensemble_moduli",
+      "source": "hilllab/ptmr/calculate_ensemble_moduli.py",
+      "lines": [
+        [
+          3,
+          7
+        ]
+      ],
+      "page": "api/hilllab/ptmr/calculate_ensemble_moduli.md",
+      "kind": "function",
+      "status": "incomplete"
+    },
+    {
+      "name": "hilllab.ptmr.conversion.batch_vrpn_to_csv.batch_vrpn_to_csv",
+      "source": "hilllab/ptmr/conversion/batch_vrpn_to_csv.py",
+      "lines": [
+        [
+          6,
+          26
+        ]
+      ],
+      "page": "api/hilllab/ptmr/conversion/batch_vrpn_to_csv.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.ptmr.conversion.vrpn_to_csv.vrpn_to_csv",
+      "source": "hilllab/ptmr/conversion/vrpn_to_csv.py",
+      "lines": [
+        [
+          7,
+          50
+        ]
+      ],
+      "page": "api/hilllab/ptmr/conversion/vrpn_to_csv.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.ptmr.drift._subtract_linear_drift._subtract_linear_drift",
+      "source": "hilllab/ptmr/drift/_subtract_linear_drift.py",
+      "lines": [
+        [
+          5,
+          100
+        ]
+      ],
+      "page": "api/hilllab/ptmr/drift/_subtract_linear_drift.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.ptmr.fit_fbm.fit_fbm",
+      "source": "hilllab/ptmr/fit_fbm.py",
+      "lines": [
+        [
+          3,
+          11
+        ]
+      ],
+      "page": "api/hilllab/ptmr/fit_fbm.md",
+      "kind": "function",
+      "status": "incomplete"
+    },
+    {
+      "name": "hilllab.ptmr.load_tracking_data.load_tracking_data",
+      "source": "hilllab/ptmr/load_tracking_data.py",
+      "lines": [
+        [
+          7,
+          37
+        ]
+      ],
+      "page": "api/hilllab/ptmr/load_tracking_data.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.ptmr.process_vrpns.process_vrpns",
+      "source": "hilllab/ptmr/process_vrpns.py",
+      "lines": [
+        [
+          5,
+          23
+        ]
+      ],
+      "page": "api/hilllab/ptmr/process_vrpns.md",
+      "kind": "function",
+      "status": "incomplete"
+    },
+    {
+      "name": "hilllab.swelling._access_read._access_read",
+      "source": "hilllab/swelling/_access_read.py",
+      "lines": [
+        [
+          3,
+          15
+        ]
+      ],
+      "page": "api/hilllab/swelling/_access_read.md",
+      "kind": "function; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.swelling._load_file._load_file",
+      "source": "hilllab/swelling/_load_file.py",
+      "lines": [
+        [
+          8,
+          52
+        ]
+      ],
+      "page": "api/hilllab/swelling/_load_file.md",
+      "kind": "function; internal helper",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.swelling.calculate_NIF.calculate_NIF",
+      "source": "hilllab/swelling/calculate_NIF.py",
+      "lines": [
+        [
+          9,
+          53
+        ]
+      ],
+      "page": "api/hilllab/swelling/calculate_NIF.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.swelling.process_2C_swelling.process_2C_swelling",
+      "source": "hilllab/swelling/process_2C_swelling.py",
+      "lines": [
+        [
+          12,
+          162
+        ]
+      ],
+      "page": "api/hilllab/swelling/process_2C_swelling.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.swelling.process_2C_swelling.process_2C_swelling._delta_normalize_columns",
+      "source": "hilllab/swelling/process_2C_swelling.py",
+      "lines": [
+        [
+          41,
+          48
+        ]
+      ],
+      "page": "api/hilllab/swelling/process_2C_swelling._delta_normalize_columns.md",
+      "kind": "nested callback/helper; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.tests.test_utilities.test_print_dict_table",
+      "source": "hilllab/tests/test_utilities.py",
+      "lines": [
+        [
+          7,
+          25
+        ]
+      ],
+      "page": "api/hilllab/tests/test_print_dict_table.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.batch_rename_files.batch_rename_files",
+      "source": "hilllab/utilities/batch_rename_files.py",
+      "lines": [
+        [
+          4,
+          32
+        ]
+      ],
+      "page": "api/hilllab/utilities/batch_rename_files.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.cache_clear.cache_clear",
+      "source": "hilllab/utilities/cache_clear.py",
+      "lines": [
+        [
+          4,
+          19
+        ]
+      ],
+      "page": "api/hilllab/utilities/cache_clear.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.cache_view.cache_view",
+      "source": "hilllab/utilities/cache_view.py",
+      "lines": [
+        [
+          6,
+          20
+        ]
+      ],
+      "page": "api/hilllab/utilities/cache_view.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.current_timestamp.current_timestamp",
+      "source": "hilllab/utilities/current_timestamp.py",
+      "lines": [
+        [
+          4,
+          7
+        ]
+      ],
+      "page": "api/hilllab/utilities/current_timestamp.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.custom_axes.custom_axes",
+      "source": "hilllab/utilities/custom_axes.py",
+      "lines": [
+        [
+          4,
+          55
+        ]
+      ],
+      "page": "api/hilllab/utilities/custom_axes.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.format_duration.format_duration",
+      "source": "hilllab/utilities/format_duration.py",
+      "lines": [
+        [
+          2,
+          25
+        ]
+      ],
+      "page": "api/hilllab/utilities/format_duration.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.format_spectra_table.format_spectra_table",
+      "source": "hilllab/utilities/format_spectra_table.py",
+      "lines": [
+        [
+          4,
+          27
+        ]
+      ],
+      "page": "api/hilllab/utilities/format_spectra_table.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.format_timestamp.format_timestamp",
+      "source": "hilllab/utilities/format_timestamp.py",
+      "lines": [
+        [
+          4,
+          8
+        ]
+      ],
+      "page": "api/hilllab/utilities/format_timestamp.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.generate_neighbor_path.generate_neighbor_path",
+      "source": "hilllab/utilities/generate_neighbor_path.py",
+      "lines": [
+        [
+          6,
+          65
+        ]
+      ],
+      "page": "api/hilllab/utilities/generate_neighbor_path.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.utilities.generate_safe_name.generate_safe_name",
+      "source": "hilllab/utilities/generate_safe_name.py",
+      "lines": [
+        [
+          5,
+          51
+        ]
+      ],
+      "page": "api/hilllab/utilities/generate_safe_name.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.gui.Popup.Popup.__init__",
+      "source": "hilllab/utilities/gui/Popup.py",
+      "lines": [
+        [
+          18,
+          27
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/Popup.__init__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.gui.Popup.Popup.show",
+      "source": "hilllab/utilities/gui/Popup.py",
+      "lines": [
+        [
+          30,
+          56
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/Popup.show.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.gui.Tooltip.Tooltip.__init__",
+      "source": "hilllab/utilities/gui/Tooltip.py",
+      "lines": [
+        [
+          11,
+          18
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/Tooltip.__init__.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.gui.Tooltip.Tooltip.show_tooltip",
+      "source": "hilllab/utilities/gui/Tooltip.py",
+      "lines": [
+        [
+          21,
+          32
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/Tooltip.show_tooltip.md",
+      "kind": "method",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.utilities.gui.Tooltip.Tooltip.move_tooltip",
+      "source": "hilllab/utilities/gui/Tooltip.py",
+      "lines": [
+        [
+          35,
+          39
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/Tooltip.move_tooltip.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.gui.Tooltip.Tooltip.hide_tooltip",
+      "source": "hilllab/utilities/gui/Tooltip.py",
+      "lines": [
+        [
+          42,
+          45
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/Tooltip.hide_tooltip.md",
+      "kind": "method",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.images_to_video.images_to_video",
+      "source": "hilllab/utilities/images_to_video.py",
+      "lines": [
+        [
+          9,
+          54
+        ]
+      ],
+      "page": "api/hilllab/utilities/images_to_video.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.load_matlab.load_matlab",
+      "source": "hilllab/utilities/load_matlab.py",
+      "lines": [
+        [
+          6,
+          17
+        ]
+      ],
+      "page": "api/hilllab/utilities/load_matlab.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.load_vrpn.load_vrpn",
+      "source": "hilllab/utilities/load_vrpn.py",
+      "lines": [
+        [
+          8,
+          43
+        ]
+      ],
+      "page": "api/hilllab/utilities/load_vrpn.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.print_dict_table.print_dict_table",
+      "source": "hilllab/utilities/print_dict_table.py",
+      "lines": [
+        [
+          3,
+          46
+        ]
+      ],
+      "page": "api/hilllab/utilities/print_dict_table.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.print_progress_bar.print_progress_bar",
+      "source": "hilllab/utilities/print_progress_bar.py",
+      "lines": [
+        [
+          5,
+          38
+        ]
+      ],
+      "page": "api/hilllab/utilities/print_progress_bar.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.utilities.record_memory_snapshot.record_memory_snapshot",
+      "source": "hilllab/utilities/record_memory_snapshot.py",
+      "lines": [
+        [
+          8,
+          43
+        ]
+      ],
+      "page": "api/hilllab/utilities/record_memory_snapshot.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.record_message.record_message",
+      "source": "hilllab/utilities/record_message.py",
+      "lines": [
+        [
+          5,
+          45
+        ]
+      ],
+      "page": "api/hilllab/utilities/record_message.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.remove_outliers.remove_outliers",
+      "source": "hilllab/utilities/remove_outliers.py",
+      "lines": [
+        [
+          7,
+          112
+        ]
+      ],
+      "page": "api/hilllab/utilities/remove_outliers.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.utilities.remove_outliers.remove_outliers.to_number",
+      "source": "hilllab/utilities/remove_outliers.py",
+      "lines": [
+        [
+          53,
+          57
+        ]
+      ],
+      "page": "api/hilllab/utilities/remove_outliers.to_number.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.verify_name.verify_name",
+      "source": "hilllab/utilities/verify_name.py",
+      "lines": [
+        [
+          5,
+          48
+        ]
+      ],
+      "page": "api/hilllab/utilities/verify_name.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.walk_dir.walk_dir",
+      "source": "hilllab/utilities/walk_dir.py",
+      "lines": [
+        [
+          5,
+          48
+        ]
+      ],
+      "page": "api/hilllab/utilities/walk_dir.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.warning.enable_simple_warnings",
+      "source": "hilllab/utilities/warning.py",
+      "lines": [
+        [
+          5,
+          15
+        ]
+      ],
+      "page": "api/hilllab/utilities/enable_simple_warnings.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.warning.enable_simple_warnings._simple_warning_format",
+      "source": "hilllab/utilities/warning.py",
+      "lines": [
+        [
+          11,
+          12
+        ]
+      ],
+      "page": "api/hilllab/utilities/enable_simple_warnings._simple_warning_format.md",
+      "kind": "nested callback/helper; internal helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.warning.warn",
+      "source": "hilllab/utilities/warning.py",
+      "lines": [
+        [
+          18,
+          23
+        ]
+      ],
+      "page": "api/hilllab/utilities/warn.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.yeild_dir.yield_dir",
+      "source": "hilllab/utilities/yeild_dir.py",
+      "lines": [
+        [
+          5,
+          23
+        ]
+      ],
+      "page": "api/hilllab/utilities/yield_dir.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual._get_camera_info._get_camera_info",
+      "source": "hilllab/visual/_get_camera_info.py",
+      "lines": [
+        [
+          5,
+          48
+        ]
+      ],
+      "page": "api/hilllab/visual/_get_camera_info.md",
+      "kind": "function; internal helper",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.visual.batch_bin_video.batch_bin_video",
+      "source": "hilllab/visual/batch_bin_video.py",
+      "lines": [
+        [
+          6,
+          26
+        ]
+      ],
+      "page": "api/hilllab/visual/batch_bin_video.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual.batch_convert_to_avi.batch_convert_to_avi",
+      "source": "hilllab/visual/batch_convert_to_avi.py",
+      "lines": [
+        [
+          9,
+          46
+        ]
+      ],
+      "page": "api/hilllab/visual/batch_convert_to_avi.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual.batch_edit_video.batch_edit_video",
+      "source": "hilllab/visual/batch_edit_video.py",
+      "lines": [
+        [
+          9,
+          45
+        ]
+      ],
+      "page": "api/hilllab/visual/batch_edit_video.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual.batch_extract_frame.batch_extract_frame",
+      "source": "hilllab/visual/batch_extract_frame.py",
+      "lines": [
+        [
+          6,
+          32
+        ]
+      ],
+      "page": "api/hilllab/visual/batch_extract_frame.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual.batch_normalize_video_brightness.batch_normalize_video_brightness",
+      "source": "hilllab/visual/batch_normalize_video_brightness.py",
+      "lines": [
+        [
+          6,
+          28
+        ]
+      ],
+      "page": "api/hilllab/visual/batch_normalize_video_brightness.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual.bin_video.bin_video",
+      "source": "hilllab/visual/bin_video.py",
+      "lines": [
+        [
+          7,
+          68
+        ]
+      ],
+      "page": "api/hilllab/visual/bin_video.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.visual.calculate_mean_brightness.calculate_mean_brightness",
+      "source": "hilllab/visual/calculate_mean_brightness.py",
+      "lines": [
+        [
+          5,
+          44
+        ]
+      ],
+      "page": "api/hilllab/visual/calculate_mean_brightness.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.visual.convert_to_avi.convert_to_avi",
+      "source": "hilllab/visual/convert_to_avi.py",
+      "lines": [
+        [
+          7,
+          68
+        ]
+      ],
+      "page": "api/hilllab/visual/convert_to_avi.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.visual.edit_video.edit_video",
+      "source": "hilllab/visual/edit_video.py",
+      "lines": [
+        [
+          9,
+          141
+        ]
+      ],
+      "page": "api/hilllab/visual/edit_video.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.visual.edit_video.edit_video.apply_edits",
+      "source": "hilllab/visual/edit_video.py",
+      "lines": [
+        [
+          70,
+          86
+        ]
+      ],
+      "page": "api/hilllab/visual/edit_video.apply_edits.md",
+      "kind": "nested callback/helper",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.visual.extract_frame.extract_frame",
+      "source": "hilllab/visual/extract_frame.py",
+      "lines": [
+        [
+          5,
+          48
+        ]
+      ],
+      "page": "api/hilllab/visual/extract_frame.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.visual.normalize_video_brightness.normalize_video_brightness",
+      "source": "hilllab/visual/normalize_video_brightness.py",
+      "lines": [
+        [
+          8,
+          76
+        ]
+      ],
+      "page": "api/hilllab/visual/normalize_video_brightness.md",
+      "kind": "function",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.visual.show_camera_info.show_camera_info",
+      "source": "hilllab/visual/show_camera_info.py",
+      "lines": [
+        [
+          8,
+          29
+        ]
+      ],
+      "page": "api/hilllab/visual/show_camera_info.md",
+      "kind": "function",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.widgets.button_open_path.button_open_path",
+      "source": "hilllab/widgets/button_open_path.py",
+      "lines": [
+        [
+          8,
+          33
+        ]
+      ],
+      "page": "api/hilllab/widgets/button_open_path.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.widgets.button_open_path.open_in_explorer",
+      "source": "hilllab/widgets/button_open_path.py",
+      "lines": [
+        [
+          36,
+          47
+        ]
+      ],
+      "page": "api/hilllab/widgets/open_in_explorer.md",
+      "kind": "function",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.drives.DBConnection.DBConnection",
+      "source": "hilllab/drives/DBConnection.py",
+      "lines": [
+        [
+          5,
+          31
+        ]
+      ],
+      "page": "api/hilllab/drives/index.md#class-dbconnection",
+      "kind": "class",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.database.Base",
+      "source": "hilllab/indexer/database.py",
+      "lines": [
+        [
+          12,
+          13
+        ]
+      ],
+      "page": "api/hilllab/indexer/index.md#class-base",
+      "kind": "class",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.models.File",
+      "source": "hilllab/indexer/models.py",
+      "lines": [
+        [
+          7,
+          55
+        ]
+      ],
+      "page": "api/hilllab/indexer/index.md#class-file",
+      "kind": "class",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.indexer.models.Keyword",
+      "source": "hilllab/indexer/models.py",
+      "lines": [
+        [
+          58,
+          68
+        ]
+      ],
+      "page": "api/hilllab/indexer/index.md#class-keyword",
+      "kind": "class",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.indexer.models.FileKeyword",
+      "source": "hilllab/indexer/models.py",
+      "lines": [
+        [
+          71,
+          75
+        ]
+      ],
+      "page": "api/hilllab/indexer/index.md#class-filekeyword",
+      "kind": "class",
+      "status": "needs-review"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Bundle",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          11,
+          115
+        ]
+      ],
+      "page": "api/hilllab/migration/index.md#class-bundle",
+      "kind": "class",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Data",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          118,
+          191
+        ]
+      ],
+      "page": "api/hilllab/migration/index.md#class-data",
+      "kind": "class",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.migration.Bundle.Results",
+      "source": "hilllab/migration/Bundle.py",
+      "lines": [
+        [
+          194,
+          213
+        ]
+      ],
+      "page": "api/hilllab/migration/index.md#class-results",
+      "kind": "class",
+      "status": "documented"
+    },
+    {
+      "name": "hilllab.utilities.gui.Popup.Popup",
+      "source": "hilllab/utilities/gui/Popup.py",
+      "lines": [
+        [
+          4,
+          56
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/index.md#class-popup",
+      "kind": "class",
+      "status": "documentation-in-progress"
+    },
+    {
+      "name": "hilllab.utilities.gui.Tooltip.Tooltip",
+      "source": "hilllab/utilities/gui/Tooltip.py",
+      "lines": [
+        [
+          4,
+          45
+        ]
+      ],
+      "page": "api/hilllab/utilities/gui/index.md#class-tooltip",
+      "kind": "class",
+      "status": "documentation-in-progress"
+    }
+  ],
+  "supporting_definitions": [
+    {
+      "name": "TESTGet_CBF_and_pctCilia",
+      "source": "hilllab/cilia/comparison/TESTGet_CBF_and_pctCilia.m",
+      "page": "api/hilllab/cilia/comparison/TESTGet_CBF_and_pctCilia.md",
+      "kind": "MATLAB function",
+      "status": "needs-review"
+    },
+    {
+      "name": "TESTrun_CBF_on_folder",
+      "source": "hilllab/cilia/comparison/TESTrun_CBF_on_folder.m",
+      "page": "api/hilllab/cilia/comparison/TESTrun_CBF_on_folder.md",
+      "kind": "MATLAB function",
+      "status": "needs-review"
+    },
+    {
+      "name": "DACoperator",
+      "source": "hilllab/magnets/gui/DACoperator.m",
+      "page": "api/hilllab/magnets/gui/DACoperator.md",
+      "kind": "MATLAB function",
+      "status": "needs-review"
+    },
+    {
+      "name": "downsample",
+      "source": "hilllab/magnets/gui/DACoperator.m",
+      "page": "api/hilllab/magnets/gui/downsample.md",
+      "kind": "MATLAB function",
+      "status": "documented"
+    },
+    {
+      "name": "print_message",
+      "source": "hilllab/magnets/gui/print_message.m",
+      "page": "api/hilllab/magnets/gui/print_message.md",
+      "kind": "MATLAB function",
+      "status": "documented"
+    },
+    {
+      "name": "record_synced_video",
+      "source": "hilllab/magnets/gui/record_synced_video.m",
+      "page": "api/hilllab/magnets/gui/record_synced_video.md",
+      "kind": "MATLAB function",
+      "status": "needs-review"
+    },
+    {
+      "name": "show_camera_formats",
+      "source": "hilllab/magnets/gui/show_camera_formats.m",
+      "page": "api/hilllab/magnets/gui/show_camera_formats.md",
+      "kind": "MATLAB function",
+      "status": "needs-review"
+    },
+    {
+      "name": "varforce_drive",
+      "source": "hilllab/magnets/gui/varforce_drive.m",
+      "page": "api/hilllab/magnets/gui/varforce_drive.md",
+      "kind": "MATLAB function",
+      "status": "needs-review"
+    },
+    {
+      "name": "varforce_drive_synced_gui.varforce_drive_gui_OpeningFcn",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.varforce_drive_gui_OpeningFcn.md",
+      "kind": "MATLAB app method",
+      "status": "source-documentation-in-progress"
+    },
+    {
+      "name": "varforce_drive_synced_gui.degauss_now_button_Callback",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.degauss_now_button_Callback.md",
+      "kind": "MATLAB app method",
+      "status": "needs-review"
+    },
+    {
+      "name": "varforce_drive_synced_gui.edit_pulsewidths_Callback",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.edit_pulsewidths_Callback.md",
+      "kind": "MATLAB app method",
+      "status": "incomplete"
+    },
+    {
+      "name": "varforce_drive_synced_gui.edit_sequences_Callback",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.edit_sequences_Callback.md",
+      "kind": "MATLAB app method",
+      "status": "needs-review"
+    },
+    {
+      "name": "varforce_drive_synced_gui.pushbutton_close_Callback",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.pushbutton_close_Callback.md",
+      "kind": "MATLAB app method",
+      "status": "source-documentation-in-progress"
+    },
+    {
+      "name": "varforce_drive_synced_gui.pushbutton_start_Callback",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.pushbutton_start_Callback.md",
+      "kind": "MATLAB app method",
+      "status": "incomplete"
+    },
+    {
+      "name": "varforce_drive_synced_gui.createComponents",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.createComponents.md",
+      "kind": "MATLAB app method",
+      "status": "source-documentation-in-progress"
+    },
+    {
+      "name": "varforce_drive_synced_gui.varforce_drive_synced_gui",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.varforce_drive_synced_gui.md",
+      "kind": "MATLAB app method",
+      "status": "source-documentation-in-progress"
+    },
+    {
+      "name": "varforce_drive_synced_gui.delete",
+      "source": "hilllab/magnets/gui/varforce_drive_synced_gui.mlapp",
+      "page": "api/hilllab/magnets/gui/varforce_drive_synced_gui.delete.md",
+      "kind": "MATLAB app method",
+      "status": "source-documentation-in-progress"
+    },
+    {
+      "name": "FFTProcessor.Program.Main",
+      "source": "hilllab/cilia/FFTProcessor/Program.cs",
+      "page": "api/hilllab/cilia/FFTProcessor/Program.Main.md",
+      "kind": "C# entry point",
+      "status": "needs-review"
+    }
+  ],
+  "supporting_assets": [
+    {
+      "source": "hilllab/cilia/FFTProcessor/FFTProcessor.csproj",
+      "page": "api/hilllab/cilia/FFTProcessor/index.md#resource-fftprocessor-csproj"
+    },
+    {
+      "source": "hilllab/cilia/FFTProcessor/FFTProcessor.exe",
+      "page": "api/hilllab/cilia/FFTProcessor/index.md#resource-fftprocessor-exe"
+    },
+    {
+      "source": "hilllab/cilia/FFTProcessor/OpenCvSharpExtern.dll",
+      "page": "api/hilllab/cilia/FFTProcessor/index.md#resource-opencvsharpextern-dll"
+    },
+    {
+      "source": "hilllab/cilia/FFTProcessor/opencv_videoio_ffmpeg4110_64.dll",
+      "page": "api/hilllab/cilia/FFTProcessor/index.md#resource-opencv-videoio-ffmpeg4110-64-dll"
+    },
+    {
+      "source": "hilllab/cilia/verification/test1.png",
+      "page": "api/hilllab/cilia/verification/index.md#resource-test1-png"
+    },
+    {
+      "source": "hilllab/cilia/verification/test2.png",
+      "page": "api/hilllab/cilia/verification/index.md#resource-test2-png"
+    },
+    {
+      "source": "hilllab/cilia/verification/test3.png",
+      "page": "api/hilllab/cilia/verification/index.md#resource-test3-png"
+    },
+    {
+      "source": "hilllab/drives/schema.sql",
+      "page": "api/hilllab/drives/index.md#resource-schema-sql"
+    },
+    {
+      "source": "hilllab/indexer/parsers/stopwords.txt",
+      "page": "api/hilllab/indexer/parsers/index.md#resource-stopwords-txt"
+    },
+    {
+      "source": "hilllab/interfaces/autotracker.ipynb",
+      "page": "api/hilllab/interfaces/index.md#resource-autotracker-ipynb"
+    },
+    {
+      "source": "hilllab/interfaces/autotracker_parameter_test.ipynb",
+      "page": "api/hilllab/interfaces/index.md#resource-autotracker-parameter-test-ipynb"
+    },
+    {
+      "source": "hilllab/visual/cameras.json",
+      "page": "api/hilllab/visual/index.md#resource-cameras-json"
+    }
+  ],
+  "layout": "folder-guides-and-function-pages",
+  "function_pages": 230,
+  "folder_guides": [
+    "api/hilllab/autotracker/index.md",
+    "api/hilllab/beads/eval/index.md",
+    "api/hilllab/beads/index.md",
+    "api/hilllab/binding/index.md",
+    "api/hilllab/binding/masks/index.md",
+    "api/hilllab/binding/plot/index.md",
+    "api/hilllab/cilia/FFTProcessor/index.md",
+    "api/hilllab/cilia/comparison/index.md",
+    "api/hilllab/cilia/index.md",
+    "api/hilllab/cilia/verification/index.md",
+    "api/hilllab/drives/index.md",
+    "api/hilllab/dynamics/index.md",
+    "api/hilllab/dynamics/plot/index.md",
+    "api/hilllab/index.md",
+    "api/hilllab/indexer/index.md",
+    "api/hilllab/indexer/menus/index.md",
+    "api/hilllab/indexer/menus/menu_utilities/index.md",
+    "api/hilllab/indexer/parsers/index.md",
+    "api/hilllab/interfaces/index.md",
+    "api/hilllab/magnets/gui/index.md",
+    "api/hilllab/magnets/index.md",
+    "api/hilllab/migration/cleaning/index.md",
+    "api/hilllab/migration/gui/index.md",
+    "api/hilllab/migration/index.md",
+    "api/hilllab/ptmr/conversion/index.md",
+    "api/hilllab/ptmr/drift/index.md",
+    "api/hilllab/ptmr/index.md",
+    "api/hilllab/swelling/index.md",
+    "api/hilllab/tests/index.md",
+    "api/hilllab/utilities/gui/index.md",
+    "api/hilllab/utilities/index.md",
+    "api/hilllab/visual/index.md",
+    "api/hilllab/widgets/index.md"
+  ]
+}

@@ -15,7 +15,9 @@ extensions = [
 # Author pages in Markdown; autosummary uses reStructuredText for generated stubs.
 source_suffix = {".md": "markdown", ".rst": "restructuredtext"}
 root_doc = "index"
-exclude_patterns = ["_build", ".venv", "README.md", ".DS_Store"]
+toc_object_entries = False
+add_module_names = False
+exclude_patterns = ["_build", "_authoring", ".venv", "README.md", ".DS_Store"]
 myst_enable_extensions = ["colon_fence", "fieldlist", "dollarmath", "amsmath"]
 
 # Ready for API pages when the Python package is installed in the build environment.
@@ -34,9 +36,10 @@ html_theme_options = {
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "show_prev_next": False,
 }
-# A single welcome page does not need an empty navigation sidebar.
-html_sidebars = {"index": []}
+html_theme_options.update({"navigation_depth": 4, "show_toc_level": 2})
 html_show_sourcelink = False
 html_show_copyright = False
+html_static_path = ["_static"]
+html_css_files = ["reference.css"]
 pygments_style = "friendly"
 pygments_dark_style = "monokai"

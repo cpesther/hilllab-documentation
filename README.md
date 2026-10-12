@@ -6,7 +6,14 @@ The theme defaults to dark mode and includes a light/dark toggle, search,
 navigation, and syntax highlighting. It is the theme used by Seaborn and the
 basis for Matplotlib's documentation theme.
 
-The site currently contains only a placeholder home page; no module documentation has been added.
+The guide follows the supplied HillLab source folders, with one page per function,
+helper, method, or named callback. Folder guides list these tools directly and
+include class profiles, configuration, notebooks, and supporting assets. There
+are no overview pages for individual source files.
+
+Pages combine source docstrings with static implementation review. Status banners
+identify unfinished features, implementation issues, and incomplete original
+docstrings. The scientific code was read without editing or importing it.
 
 ## Publish on GitHub Pages
 
@@ -24,12 +31,17 @@ the `.nojekyll` file needed to serve its underscore-prefixed asset directories.
 ## Edit the site
 
 - `index.md` is the Markdown home page.
+- `api/hilllab/` mirrors the source folders. Folder guides use `index.md`; function
+  pages live directly beside them and use local qualified names as filenames.
+- `getting-started.md` explains conventions, data layouts, units, and import limitations.
+- `reference-status.md` indexes Python source-review flags.
+- `coverage.md` and `_static/reference-coverage.json` record coverage and provenance.
 - `conf.py` contains the theme and Sphinx configuration.
 - `requirements.txt` contains the documentation build dependencies.
 - `.github/workflows/pages.yml` builds and deploys the site.
 
-Write future pages in [MyST Markdown](https://myst-parser.readthedocs.io/en/stable/)
-and link them from a `toctree` directive in `index.md` when they are ready.
+Edit or add pages in [MyST Markdown](https://myst-parser.readthedocs.io/en/stable/)
+and link them from the parent folder's function list and `toctree` directive.
 Ordinary Markdown headings, links, and fenced Python code blocks work directly.
 MyST also supports Sphinx directives and cross-references for documenting
 functions, classes, parameters, return values, and variables.
@@ -40,7 +52,10 @@ documentation, including NumPy and Google style docstrings. Before adding
 dependencies in the documentation build environment, both locally and in CI.
 Wrap autodoc directives in a MyST `eval-rst` fence so their generated
 reStructuredText is parsed correctly within a Markdown page.
-The placeholder site does not import or require the module.
+The current guide uses concise signatures, prose contracts, and source links,
+so its build does not import or require HillLab. Preserve this property unless
+automatic runtime introspection is intentionally introduced. Do not remove a
+status banner without checking its stated source issue against updated code.
 
 ## Local preview
 

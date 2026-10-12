@@ -1,0 +1,31 @@
+/* Keep long API names and source evidence usable on narrow screens. */
+.bd-article .sig {
+  overflow-wrap: anywhere;
+}
+
+.bd-article table code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.bd-toc code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.source-details {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--pst-color-border);
+  border-radius: 0.3rem;
+  background: var(--pst-color-surface);
+}
+
+.source-details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.source-details[open] summary {
+  margin-bottom: 1rem;
+}
